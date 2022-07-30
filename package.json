@@ -2,7 +2,6 @@
   "name": "packemon-native-dynamic-import",
   "version": "1.0.0",
   "description": "",
-  "main": "./cjs/index.cjs",
   "repository": "azu/packemon-native-dynamic-import",
   "scripts": {
     "build": "packemon pack --addEngines --addExports --declaration --declarationConfig tsconfig.json",
@@ -32,33 +31,5 @@
   },
   "dependencies": {
     "pkg-dir": "^6.0.1"
-  },
-  "types": "./dts/index.d.ts",
-  "engines": {
-    "node": ">=14.15.0",
-    "npm": ">=6.14.0"
-  },
-  "exports": {
-    "./package.json": "./package.json",
-    "./*": {
-      "types": "./dts/*.d.ts",
-      "node": {
-        "import": "./mjs/*.mjs",
-        "require": "./cjs/*.cjs"
-      }
-    },
-    ".": {
-      "types": "./dts/index.d.ts",
-      "node": {
-        "import": "./mjs/index.mjs",
-        "require": "./cjs/index.cjs"
-      }
-    }
-  },
-  "files": [
-    "cjs/**/*.{cjs,mjs,map}",
-    "dts/**/*.d.ts",
-    "mjs/**/*.{mjs,map}",
-    "src/**/*.{ts,tsx,json}"
-  ]
+  }
 }
