@@ -1,0 +1,1 @@
+{"version":3,"file":"index.cjs","sources":["../src/index.ts"],"sourcesContent":null,"names":["main","pkgDir","console","log","packageDirectory"],"mappings":";;;;;;;;;;;;;;;;;;;;AAAA,MAAMA,IAAI,GAAG,YAAY;AACrB,EAAA,MAAMC,MAAM,GAAG,MAAM,oEAAO,SAAP,GAArB,CAAA;AACAC,EAAAA,OAAO,CAACC,GAAR,CAAY,MAAMF,MAAM,CAACG,gBAAP,EAAlB,CAAA,CAAA;AACH,CAHD,CAAA;;AAIAJ,IAAI,EAAA;;"}
