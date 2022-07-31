@@ -1,1 +1,1 @@
-{"version":3,"file":"index.mjs","sources":["../src/index.ts"],"sourcesContent":null,"names":["main","pkgDir","console","log","packageDirectory"],"mappings":"AAAA,MAAMA,IAAI,GAAG,YAAY;AACrB,EAAA,MAAMC,MAAM,GAAG,MAAM,OAAO,SAAP,CAArB,CAAA;AACAC,EAAAA,OAAO,CAACC,GAAR,CAAY,MAAMF,MAAM,CAACG,gBAAP,EAAlB,CAAA,CAAA;AACH,CAHD,CAAA;;AAIAJ,IAAI,EAAA"}
+{"version":3,"file":"index.mjs","sources":[],"sourcesContent":null,"names":[],"mappings":""}
